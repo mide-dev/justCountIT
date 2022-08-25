@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Biryani:wght@800;900&family=Coiny&family=Loved+by+the+King&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>justCountIT</title>
+  </head>
+  <body>
+    <section>
+      <!-- LOGO -->
+      <main class="container">
+        <div class="logo">justCountIT</div>
+
+        <!-- HERO SECTION - LEFT -->
+        <div class="content-wrap">
+          <div class="left-hero-wrap">
+            <h1>Count & keep Track of Anything like a boss 😎</h1>
+            <h2>
+              kisses, cigarettes, sheeps.... dosen’t matter, just count it!
+            </h2>
+          </div>
+
+          <!-- MAIN CONTENT - RIGHT -->
+          <div class="right-hero-wrap">
+            <img
+              class="input-prompt hidden"
+              src="./Asset/inputTitle.png"
+              alt=""
+            />
+            <input
+              class="title-input"
+              type="text"
+              placeholder="what are we counting boss?"
+            />
+
+            <div class="title-wrap hidden">
+              <p class="count-title">kisses</p>
+              <div>
+                <button class="btn-tp btn-edit">Edit</button> |
+                <button class="btn-tp btn-reset">Reset Count</button>
+              </div>
+            </div>
+
+            <div class="right-inner-wrap">
+              <div class="btn-wrap">
+                <button class="round-btn negative-count">-</button>
+                <p class="count-value">0</p>
+                <button class="round-btn positive-count">+</button>
+              </div>
+              <button class="save-btn">SAVE</button>
+              <p class="previous-record">Previous Record</p>
+              <div class="records">No Record</div>
+            </div>
+          </div>
+        </div>
+
+        <script src="script.js"></script>
+      </main>
+    </section>
+  </body>
+</html>
